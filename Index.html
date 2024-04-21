@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="Es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sticky Navigation dropdown | Skay J</title>
+    <!-- Css -->
+    <link rel="stylesheet" href="Assets/Css/Main.css">
+    <!-- JavaScript -->
+    <script src="Assets/JavaScript/Main.js"></script>
+    <!-- Icono -->
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Barra de navegación -->
+    <div class="envoltorio" id="Sticky">
+        <nav>
+            <input type="checkbox" id="mostrar-menu">
+            <div class="menu">
+                
+                <!-- Logo -->
+                <div class="logo">
+                    <img alt="logo-menu" src="Assets/Image/Logo.png">
+                    <a href="#">Skay J</a>
+                </div>
+                
+                <!-- Menú -->
+                <ul class="enlaces">
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#Contacto">Contacto</a></li>
+
+                    <!-- Desplegable 1 -->
+                    <li>
+                    <a href="#" class="desktop-link">Servicios</a>
+                    <input type="checkbox" id="mostrar-servicios">
+                    <label for="mostrar-servicios">Servicios</label>
+                    <ul>
+                        <li><a href="#">Opción 1</a></li>
+                        <li><a href="#">Opción 2</a></li>
+                        <li><a href="#">Opción 3</a></li>
+                    </ul>
+                    </li>
+
+                    <!-- Desplegable 2 -->
+                    <li>
+                    <a href="#" class="desktop-link">Zonas</a>
+                    <input type="checkbox" id="mostrar-zonas">
+                    <label for="mostrar-zonas">Zonas</label>
+                    <ul>
+                        <li><a href="#">Opción 1</a></li>
+                        <li><a href="#">Opción 2</a></li>
+                        <li><a href="#">Opción 3</a></li>
+                    </ul>
+                    </li>
+
+                    <!-- Desplegable 3 -->
+                    <li>
+                    <a href="#" class="desktop-link">Elementos</a>
+                    <input type="checkbox" id="mostrar-elementos">
+                    <label for="mostrar-elementos">Elementos</label>
+                    <ul>
+                        <li><a href="#">Opción 1</a></li>
+                        <li><a href="#">Opción 2</a></li>
+                        <li><a href="#">Opción 3</a></li>
+                    </ul>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Boton menu (Responsivo) -->
+            <label for="mostrar-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+        </nav>
+    </div>
+
+    <!-- contenido de Ejemplo -->
+    <div class="banner"></div>
+    <div class="ejemplo">
+        <div class="texto">
+            <h1>Sticky Navigation Menu with HTML, CSS & JavaScript - dropdown</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultricies, sapien a porttitor euismod, ante nisi imperdiet ex, sed efficitur urna nisl eu metus. Donec a ex interdum, venenatis mi interdum, sagittis ligula. Maecenas placerat enim lacus, eget auctor sapien dictum in. Ut finibus, diam at euismod dictum, nunc nisi ornare dui, nec facilisis nulla quam eget augue. Mauris eget sollicitudin ligula. Vestibulum rhoncus nisl in turpis convallis rhoncus. Aenean auctor eros vel metus malesuada, posuere ultrices nibh scelerisque. Nullam at nisl vitae ex pretium ultrices a ac tortor. Suspendisse mollis arcu et varius dignissim. Donec eget sem eleifend, bibendum urna a, condimentum velit. Aliquam facilisis justo et augue ultricies maximus. Etiam velit purus, egestas commodo tempus a, lacinia non nunc. Vestibulum nibh mauris, ultricies vitae magna at, eleifend auctor ligula. Cras eu fringilla sapien, ac gravida ex.
+
+                Suspendisse elementum nisi gravida odio rhoncus iaculis. Nullam sapien ante, ultricies a vestibulum non, aliquet et orci. Maecenas neque magna, rhoncus varius fringilla id, ultricies eu erat. In vitae feugiat neque. Nullam tempor auctor porta. Sed ex diam, cursus sed semper ut, hendrerit vel ante. Vestibulum pulvinar ipsum sed ex rhoncus tincidunt. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In faucibus eros lorem, quis condimentum nisl elementum eget. Fusce in tristique mauris. Cras eros erat, luctus ut porttitor sed, feugiat et libero.
+                
+                Sed efficitur a magna in convallis. Curabitur ultrices, dolor id maximus tempor, felis tortor bibendum odio, tempus imperdiet nisi purus eget felis. Ut dignissim porttitor vulputate. Vivamus nisi erat, volutpat at pretium ut, feugiat eget ex. Praesent consectetur est eu euismod placerat. Mauris tincidunt nisi at libero mattis, finibus ornare odio fermentum. Donec scelerisque nibh tellus, condimentum consequat erat aliquet vitae. Fusce pellentesque vehicula ligula ac faucibus. Maecenas quis egestas nisi, vel blandit sem. Phasellus accumsan massa eu mi tempus, lacinia lobortis turpis tempus. Nunc pharetra odio id cursus eleifend. Aliquam tincidunt mauris lacus, at venenatis mi posuere sit amet. Fusce cursus elementum neque, ac dictum arcu accumsan eu. Quisque blandit massa lorem, quis ullamcorper felis feugiat eu. Morbi vel diam dictum, pulvinar sapien eget, lacinia orci.
+                
+                Duis vitae odio elementum, dapibus lectus vitae, finibus lacus. Morbi mauris nisl, blandit ornare tortor ut, fringilla scelerisque metus. Sed sit amet neque hendrerit, commodo ex id, dignissim nisi. Aliquam eget justo tincidunt, consectetur purus et, tristique mauris. In facilisis est blandit, pulvinar lacus at, pharetra augue. Proin orci magna, fermentum eget dolor et, tempor porta justo. Nullam quam nunc, euismod a erat eu, ullamcorper blandit risus.
+                
+                Sed aliquet, eros sed eleifend egestas, ante sapien consequat leo, in ultricies risus nisi ac eros. Suspendisse dapibus lorem vel nisi hendrerit eleifend. Maecenas faucibus, erat quis ullamcorper consectetur, sapien augue gravida libero, vel efficitur magna nibh facilisis libero. Nunc id accumsan felis, varius eleifend ligula. Vestibulum malesuada, est sed blandit lacinia, ante massa posuere erat, non ornare purus erat id velit. Quisque malesuada lorem in leo cursus ultricies. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                
+                Mauris laoreet, diam at tristique facilisis, justo ligula eleifend neque, eget laoreet massa augue at est. Quisque eget vehicula ipsum, at congue nunc. Integer laoreet est eget sollicitudin venenatis. Vestibulum viverra orci in mauris rhoncus, sit amet pellentesque diam pretium. Fusce aliquet congue sapien hendrerit malesuada. In facilisis tortor odio, eget imperdiet enim suscipit sit amet. Cras in metus porta, pulvinar nibh quis, iaculis ipsum. Pellentesque sit amet tortor vitae nunc porta ultrices quis at magna. Duis tincidunt eget risus quis vestibulum. Nulla fringilla pretium magna et vulputate. Aliquam euismod nulla et nulla dapibus finibus. Duis eget quam lobortis, malesuada metus eget, sagittis urna. Phasellus cursus bibendum euismod. Morbi posuere sapien in urna molestie molestie.
+                
+                Vivamus commodo tincidunt nisl tempus venenatis. Proin elementum velit eu porta maximus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque lobortis, augue at volutpat vulputate, ligula felis interdum sapien, et mollis tellus enim a odio. Morbi et est eu diam efficitur pellentesque. Sed malesuada erat sed eros fermentum accumsan. Sed dignissim velit nisi. Phasellus magna quam, elementum vel justo ac, facilisis varius justo. Mauris suscipit pharetra posuere.
+                
+                Fusce hendrerit quam neque, id elementum justo pellentesque eget. Duis ullamcorper pulvinar tincidunt. Pellentesque quam orci, faucibus ac ultrices non, ultrices nec urna. Nullam congue, elit scelerisque facilisis placerat, dui neque congue tortor, a condimentum nibh purus vel lacus. Cras posuere egestas rhoncus. Ut neque tellus, convallis quis tellus sed, mattis bibendum ipsum. Vivamus in mauris sit amet urna dapibus gravida vitae quis arcu. In porta tortor ut ex suscipit tempus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque ut nunc lacus. Morbi pulvinar felis vitae lacus finibus, eget suscipit orci eleifend.
+                
+                Nam eu purus velit. Phasellus efficitur mauris non elit feugiat, vitae vestibulum libero condimentum. Aenean vitae malesuada quam, a fringilla neque. Aliquam et auctor arcu. Maecenas dapibus convallis enim et tincidunt. Donec sit amet efficitur purus. Etiam ac posuere libero. Vestibulum odio odio, eleifend nec pharetra sed, tristique nec enim. Aenean eleifend, mi at porta luctus, sem augue porttitor nunc, semper varius tortor justo et tortor. Curabitur quis nunc dictum, efficitur quam eget, euismod orci. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed sagittis at odio nec porttitor. Morbi arcu metus, facilisis vel magna in, venenatis rhoncus neque. Cras non felis eleifend, bibendum nisi sit amet, maximus velit. Pellentesque nisl est, dapibus at ultrices sit amet, lobortis a odio.
+            </p>
+        </div>
+    </div>
+</body>
+</html>
